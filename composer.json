@@ -1,0 +1,17 @@
+{
+    "require": {
+        "silex/silex": "~1.3",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+
+    "autoload":{
+    	"psr-4":{
+    		"Source\\": "api/source/",
+            "Config\\": "config/"
+    	}
+    }
+}
